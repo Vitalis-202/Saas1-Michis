@@ -1,10 +1,16 @@
 /*Variables*/
 /*Estilos*/
-.body {
+* {
   margin: 0;
-  padding: 0;
+  padding: 0; }
+
+.body {
   font-size: 62.5%;
-  height: 80vh; }
+  height: 80vh;
+  background-color: #f0ac7e; }
+
+.col {
+  padding: 0; }
 
 /*Header*/
 .header {
@@ -20,6 +26,16 @@
 
 /*fin Header*/
 /*Hero*/
+.jumbotron {
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+  background-color: #f0ac7e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh; }
+
 /*fin Hero*/
 /*Card - Main*/
 main {

@@ -6,11 +6,17 @@ $color-back:rgb(240, 172, 126);
 $color-back-card:rgb(159, 253, 253);
 $font-size-p:1.5rem;
 /*Estilos*/
-.body{
+*{
     margin: 0;
     padding: 0;
+}
+.body{
     font-size: 62.5%;
     height: 80vh;
+    background-color: $color-back;
+}
+.col{
+    padding:0;
 }
 /*Header*/
 .header{
@@ -29,6 +35,16 @@ $font-size-p:1.5rem;
 }
 /*fin Header*/
 /*Hero*/
+.jumbotron {
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c");
+    background-color: $color-back;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+}
 /*fin Hero*/
 /*Card - Main*/
 main{
