@@ -1,0 +1,53 @@
+/*Variables*/
+/*Estilos*/
+.body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%; }
+
+/*Header*/
+.header {
+  width: 100vw;
+  height: auto;
+  background-color: #f0ac7e;
+  font-family: Outfit, sans-serif; }
+  .header__title {
+    color: rgba(33, 99, 165, 0.856); }
+  .header__subtitle {
+    color: #278a91;
+    font-size: 1.5rem; }
+
+/*fin Header*/
+/*Hero*/
+/*fin Hero*/
+/*Card - Main*/
+main {
+  background-color: #f0ac7e; }
+
+.card {
+  background-color: #9ffdfd; }
+  .card__nombre {
+    color: rgba(33, 99, 165, 0.856); }
+  .card__descripcion {
+    color: #278a91; }
+
+/*fin Card-Main*/
+/*footer*/
+.footer {
+  background-color: #f0ac7e; }
+  .footer__element {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .footer__element p {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: #278a91;
+      margin: 0; }
+    .footer__element a {
+      text-decoration: none;
+      color: #278a91; }
+
+/*fin footer*/

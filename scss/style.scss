@@ -1,0 +1,70 @@
+/*Variables*/
+$font-general:Outfit,sans-serif;
+$color-primary:rgba(33, 99, 165, 0.856);
+$color-secondary:rgb(39, 138, 145);
+$color-back:rgb(240, 172, 126);
+$color-back-card:rgb(159, 253, 253);
+$font-size-p:1.5rem;
+/*Estilos*/
+.body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+/*Header*/
+.header{
+    width: 100vw;
+    height: auto;
+    background-color: $color-back;
+    font-family: $font-general;
+
+    &__title{
+        color:$color-primary;
+    }
+    &__subtitle{
+        color:$color-secondary;
+        font-size:$font-size-p;
+    }
+}
+/*fin Header*/
+/*Hero*/
+/*fin Hero*/
+/*Card - Main*/
+main{
+    background-color: $color-back;
+}
+.card{
+    background-color:$color-back-card; 
+    &__nombre{
+        color: $color-primary;
+    }
+    &__descripcion{
+        color:$color-secondary;
+    }
+}
+/*fin Card-Main*/
+/*footer*/
+.footer{
+    background-color: $color-back;
+
+    &__element{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: $color-secondary;
+            margin:0;
+        }
+        a{
+            text-decoration: none;
+            color: $color-secondary;
+        }
+    }
+
+}
+/*fin footer*/
